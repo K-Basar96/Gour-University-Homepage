@@ -1,0 +1,527 @@
+body {
+  display: block;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.University_name {
+  text-align: center;
+  background-color: #bb5908 !important;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 3px;
+  width: 100%;
+}
+
+.University_name_logo {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  color: #cbb58b;
+}
+
+li {
+  list-style: none;
+  font-size: 12px;
+  line-height: 0;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.submenu {
+  display: grid;
+}
+
+.dropdown-content a:hover {
+  color: #cbb58b;
+}
+
+.dropdown-item.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.6em;
+  vertical-align: middle;
+  content: "";
+  border-left: .3em solid;
+  border-top: .3em solid transparent;
+  border-bottom: .3em solid transparent;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.submenu2 {
+  position: absolute;
+  background-color: #FFFFFF;
+  right: 160px;
+  top: 20px;
+  display: none;
+  width: max-content;
+}
+
+.submenu li:hover .submenu2 {
+  display: block;
+}
+
+/* Slide */
+.slider_section {
+  margin: 0;
+}
+
+.slider_container {
+  display: block;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  left: 8%;
+  padding: 10px 15px;
+  font-size: large;
+  background-color: rgba(6, 4, 1, 0.432);
+}
+
+.next_arrow {
+  left: 88%;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+section {
+  margin: auto;
+  width: 80%;
+}
+
+/* Application Section */
+.application_section {
+  width: 100%;
+}
+
+.new_admi {
+  background-color: #0275d8 !important;
+}
+
+.new_admi a {
+  font-size: 22px;
+  font-weight: bold;
+  animation: blinking 1s linear infinite;
+}
+
+@keyframes blinking {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.apply_link {
+  width: 32%;
+  background-color: #cda376;
+  margin: 10px;
+  padding: 28px 30px;
+}
+
+.link_text {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+/* Welcome division */
+.welcome_div {
+  width: 1140px;
+  align-items: center;
+}
+
+.welcome_section {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome_text {
+  font-size: xx-large;
+}
+
+.welcome_text p {
+  line-height: 1.8;
+  padding-right: 88px;
+}
+
+.welcome_img {
+  width: 200px;
+  height: 200px;
+  padding: 0 50px;
+}
+
+/* Notice Divition */
+.notice_header {
+  align-items: center;
+  font-family: inherit;
+  width: 50%;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.notice_header h3 {
+  width: 35%;
+  padding: 0 0 0 35px;
+  font-weight: normal;
+  font-size: 24px;
+  color: #292B2C;
+}
+
+.netaji_contents,
+.notice_contents {
+  display: inline;
+  text-align: left;
+  padding: 24px
+}
+
+.netaji_contents a,
+.notice_contents a {
+  display: block;
+  margin-bottom: 14px;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  left: 20px;
+}
+
+.notice_link,
+.netaji_link {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.notice_button button {
+  width: 210px;
+  height: 56px;
+  padding: 16px 36px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #cbb58b;
+  border: #cbb58b 3px solid;
+}
+
+.notice_button button:hover {
+  color: #FFFFFF;
+  background-color: #cbb58b;
+}
+
+/* Principal_section */
+.principal {
+  font-size: 20px;
+  text-align: left;
+  justify-content: flex-start;
+  padding: 0 0 0 35px;
+  font-family: Lucida fax;
+}
+
+.principal img {
+  margin-top: 40px;
+}
+
+.principal_name {
+  color: #275d71;
+  font-size: 20px;
+}
+
+.principal_name h3 {
+  margin-bottom: 5px;
+}
+
+.principal_intro {
+  font-size: 14px;
+  padding-right: 8%;
+}
+
+.principal_intro a {
+  font-weight: bold;
+  color: #cbb58b;
+}
+
+/* Netaji Section  */
+.netaji_header {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif
+}
+
+.netaji_content {
+  background-color: #f3e8e8;
+  padding: 25px;
+}
+
+/* details section  */
+.details_section {
+  width: 100%;
+}
+
+.details_row {
+  position: relative;
+  align-items: center;
+}
+
+.details_div {
+  background-color: #153410;
+  padding: 100px;
+  color: #FFFFFF;
+}
+
+.detail {
+  display: -webkit-box;
+  width: 20%;
+}
+
+.detail img {
+  height: 65px;
+  width: 65px;
+  position: relative;
+  padding: 5px;
+  top: 30px;
+}
+
+.counter {
+  display: block;
+  font-size: 40px;
+}
+
+.detail p {
+  font-size: 24px;
+  gap: 100px;
+}
+
+/* Office section  */
+.office_section {
+  margin-bottom: 40px;
+}
+
+.office_blog {
+  padding: 40px 0 0 0;
+  font-size: 25px;
+}
+
+.picture_title h3 {
+  font-size: 25px;
+  margin: 10px 0 0 15px;
+}
+
+.picture_title p {
+  font-size: 14px;
+  color: #9e160480;
+  margin: 5px 15px;
+}
+
+/* Contact section  */
+
+.contact_section {
+  background-color: #2d2d2d;
+}
+
+.contact_section h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_section input {
+  padding: 18px 30px 18px 30px;
+  margin-right: 15px;
+  background: #3f3f3f;
+  color: #FFFFFF;
+  border: none;
+  font-size: 16px;
+  width: 460px;
+}
+
+.contact_section button {
+  background-color: #cbb58b;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  padding: 17px 34px;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact_email {
+  padding: 60px;
+}
+
+.subs_note {
+  right: 80px;
+  color: #FFFFFF;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  font-family: Lora, sans-serif;
+}
+
+.subs_note p {
+  font-size: 12px;
+  margin-bottom: 14px;
+}
+
+.contact {
+  color: #FFFFFF;
+}
+
+.contact_logo {
+  padding-left: 40px;
+}
+
+/* Important Links  */
+.links_section {
+  padding: 50px 0px 99px;
+}
+
+.contact_empty {
+  position: relative;
+  display: block;
+  content-visibility: hidden;
+}
+
+.imp_links h1 {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.contact_links li {
+  text-align: center;
+  padding: 2px 4px 2px 4px;
+}
+
+.contact_links a {
+  font-size: 18px;
+  line-height: 2;
+  color: #c4c4c4;
+  text-decoration: none;
+}
+
+.contact_links a:hover {
+  color: #cbb58b;
+  font-weight: 600;
+}
+
+.contact_us {
+  display: block;
+  text-align: left;
+}
+
+.contact_us h3 {
+  display: block;
+  font-size: 24px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.contact_us a {
+  color: #cbb58b;
+  font-size: 14px;
+}
+
+.contact_address,
+.contact_address a {
+  font-size: 17px;
+}
+
+.contact_hover:hover {
+  color: #FFFFFF;
+}
+
+.contact_socials {
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+}
+
+.contact_socials a {
+  line-height: normal;
+  padding: 5px;
+}
+
+.contact_socials img {
+  height: 40px;
+}
+
+footer {
+  margin-bottom: auto;
+  background-color: brown;
+  color: #FFFFFF;
+  font-size: 12px;
+}
